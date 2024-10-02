@@ -7,8 +7,7 @@ on:
       - main
       - 'dev-*' # example: dev-new test
       - 'feat/**' # like feat/dev or feat/dev/new
-    paths:
-      - '.github/workflows/*'
+    
   workflow_dispatch:
 jobs:
   deploy:
