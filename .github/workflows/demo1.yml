@@ -5,9 +5,9 @@ on:
   push:
     branches:
       - main
-      - 'dev-*' # example: dev-new
+      - 'dev-*' # example: dev-new test
       - 'feat/**' # like feat/dev or feat/dev/new
-    paths-ignore:
+    paths:
       - '.github/workflows/*'
   workflow_dispatch:
 jobs:
