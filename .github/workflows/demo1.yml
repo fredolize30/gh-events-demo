@@ -5,7 +5,7 @@ on:
   push:
     branches:
       - main
-      - 'dev-*' # example: dev-new test
+      - 'dev-*' # example: dev-new
       - 'feat/**' # like feat/dev or feat/dev/new
     paths:
       - '.github/workflows/*'
